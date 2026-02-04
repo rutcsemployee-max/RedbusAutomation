@@ -30,15 +30,4 @@ public class MyTest {
         Browser.close();
     }
 
-//    @Test
-//    public void testNow(){
-//        WebDriver d = new FirefoxDriver();
-//        d.get("https://www.redbus.in/search?fromCityName=Karunamoyee%2C%20Kolkata&toCityName=Bardhaman&fromCityId=75494&toCityId=74678&onward=03-Feb-2026&return=NaN-undefined-NaN&ref=modifyDate&step=SL#");
-//        WebElement slectedBus = new WebDriverWait(d, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(By.xpath("//ul[@data-autoid='exact']/li[" + 1 + "]")));
-//        slectedBus.click();
-////        d.findElement(By.xpath("//div[contains(@aria-label, 'seat status available')]"));
-//        List<WebElement> e = new WebDriverWait(d, Duration.ofSeconds(5)).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[contains(@aria-label, 'seat status available')]")));
-//        Assert.assertNotNull(e);
-//        System.out.println(e.get(3).getText());
-//    }
 }
