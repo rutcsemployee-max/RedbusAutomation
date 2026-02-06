@@ -10,24 +10,23 @@ import org.testng.annotations.Test;
 public class MyTest {
 
     @BeforeTest
-    void initialize(){
+    void initialize() {
         Browser.launch();
         Browser.navigate();
     }
 
     @Test
-    void test1() throws InterruptedException {
+    void test1() {
         FirstPage.firstPage();
     }
 
     @Test
-    void test2(){
+    void test2() {
         SecondPage.secondPage();
     }
 
     @AfterTest
-    void endTests(){
-        Browser.close();
+    void endTests() {
+        //Browser.close();
     }
-
 }

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression Suite" verbose="1">
-    <!-- The <test> tag is essential for @BeforeTest and @AfterTest to trigger -->
+<suite name="Test Redbus Automation Test1 and Test2" verbose="1">
     <test name="Functional Tests">
         <classes>
-            <!-- Package name must match exactly: 'tests' -->
             <class name="tests.MyTest" />
         </classes>
     </test>
