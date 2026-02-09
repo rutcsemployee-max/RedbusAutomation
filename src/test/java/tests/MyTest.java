@@ -27,6 +27,6 @@ public class MyTest {
 
     @AfterTest
     void endTests() {
-        //Browser.close();
+        Browser.close();
     }
 }
